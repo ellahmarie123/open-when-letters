@@ -11,7 +11,7 @@ export default function App() {
   useEffect(() => {
     const playAudio = () => {
       if (audioRef.current) {
-        audioRef.current.volume = 0.2;
+        audioRef.current.volume = 0.6;
         audioRef.current.play().catch((err) => {
           console.log("Autoplay blocked by browser", err);
         });
