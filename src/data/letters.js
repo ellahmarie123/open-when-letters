@@ -152,14 +152,29 @@ const letters = [
   {
     id: 16,
     title: "Open When You Want a Hug",
-    content:
-      "Wrap your arms around yourself really tight. That's me, giving you the warmest, most comforting hug in the world. 🤗",
+    content: (
+      <>
+        Wrap your arms around yourself really tight. That's me, giving you the
+        warmest, most comforting hug in the world. 🤗
+        <br></br>
+        <br></br>
+        PS: Sending virtual hugs for you baby ko
+      </>
+    ),
   },
   {
     id: 17,
     title: "Open When You Need to Smile",
-    content:
-      "Your smile lights up my entire world. If you're reading this, smile for me right now — just because you're loved. 😊💫",
+    content: (
+      <>
+        Your smile lights up my entire world. If you're reading this, smile for
+        me right now — just because you're loved. 😊💫
+        <br></br>
+        <br></br>
+        PS: Entire world??! Ang taray sa entire world hindi mo kaya baby. Pero
+        fr smile ka na, ang ganda ng smile mo baby ko
+      </>
+    ),
   },
   {
     id: 18,
