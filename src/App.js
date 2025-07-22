@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useRef, useEffect } from "react";
+import LetterList from "./components/LetterList";
+import LetterModal from "./components/LetterModal";
+import letters from "./data/letters";
+import "./App.css";
 
-function App() {
+export default function App() {
+  const [selectedLetter, setSelectedLetter] = useState(null);
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    const playAudio = () => {
+      if (audioRef.current) {
+        audioRef.current.volume = 0.2;
+        audioRef.current.play().catch((err) => {
+          console.log("Autoplay blocked by browser", err);
+        });
+      }
+    };
+    playAudio();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+        <h1>Open When Letters</h1>
+      </>
+
+      <LetterList letters={letters} onOpen={setSelectedLetter} />
+      {selectedLetter && (
+        <LetterModal
+          letter={selectedLetter}
+          onClose={() => setSelectedLetter(null)}
+        />
+      )}
+      <audio ref={audioRef} src="/open-when-bg.mp3" loop />
     </div>
   );
 }
-
-export default App;
