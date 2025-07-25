@@ -122,9 +122,9 @@ const letters = [
         cheering like a crazy person because YOU DID IT! 🎉🎊
         <br></br>
         <br></br>
-        Insert bgm: you did it, you did it, you did it, hey! 🎶. PS: Pag hindi{" "}
+        Insert bgm: you did it, you did it, you did it, hey! 🎶.
         <br></br>
-        mo yan alam baby, wala ka childhood charot.
+        PS: Pag hindi mo yan alam baby, wala ka childhood charot.
       </>
     ),
   },
