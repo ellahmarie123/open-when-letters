@@ -37,7 +37,7 @@ const letters = [
         my favorite story. I can't wait to write more pages with you. 👩‍❤️‍👩
         <br></br>
         <br></br>
-        PS: I love you so much babyyy
+        PS: I love you so so much babyyy
       </>
     ),
   },
@@ -74,7 +74,7 @@ const letters = [
     title: "Open When You Need a Laugh",
     content: (
       <>
-        What do you call fake spaghetti? Am impasta. 😜
+        I used to be addicted to soap ... <br></br> But now I'm clean.
         <br></br>
         <br></br>
         PS: hulaan ko baby, hindi ka natawa
@@ -116,38 +116,89 @@ const letters = [
   {
     id: 10,
     title: "Open When You’re Celebrating Something",
-    content:
-      "Yay! I'm so proud of you! Whether it’s a small win or a big one, I’m cheering like a crazy person because YOU DID IT! 🎉🎊",
+    content: (
+      <>
+        Yay! I'm so proud of you! Whether it’s a small win or a big one, I’m
+        cheering like a crazy person because YOU DID IT! 🎉🎊
+        <br></br>
+        <br></br>
+        Insert bgm: you did it, you did it, you did it, hey! 🎶. PS: Pag hindi{" "}
+        <br></br>
+        mo yan alam baby, wala ka childhood charot.
+      </>
+    ),
   },
   {
     id: 11,
     title: "Open When You're Overthinking",
-    content:
-      "Your thoughts are valid, but please don’t be too hard on yourself. Let go a little. You’re doing okay, I promise. Let me help carry the weight. 🫂",
+    content: (
+      <>
+        Your thoughts are valid, but please don’t be too hard on yourself. Let
+        go a little. You’re doing okay, I promise. Let me help carry the weight.
+        🫂
+        <br></br>
+        <br></br>
+        PS. Alam ko nagwei-weightlifting ka baby as exercise pero wag mo naman
+        buhatin problema ng buong Mars.
+      </>
+    ),
   },
   {
     id: 12,
     title: "Open When You're Feeling Lonely",
-    content:
-      "Hey, you're not alone—not really. I’m always with you, even if not physically. I’m just a message, a memory, or a letter away. ❤️",
+    content: (
+      <>
+        Hey, you're not alone—not really. I’m always with you, even if not
+        physically. I’m just a message, a memory, or a letter away. ❤️
+        <br></br>
+        <br></br>
+        PS. Tsaka may kasama ka lagi sa kwarto mo baby ko 👻 charot, si bear at
+        milk tea kasi un baby 😂.
+      </>
+    ),
   },
   {
     id: 13,
     title: "Open When You Want to Know Why I Love You",
-    content:
-      "There are so many reasons — your heart, your smile, the way you care about people, your strength (and your coco melon 😉). You're my home and my peace. 💞",
+    content: (
+      <>
+        There are so many reasons — your heart, your smile, the way you care
+        about people, your strength (and your coco melon 😉). You're my home and
+        my peace. 💞
+        <br></br>
+        <br></br>
+        PS. I love you so so much baby ko, can't wait to spend the rest of my
+        life with you ❤️.
+      </>
+    ),
   },
   {
     id: 14,
     title: "Open When It's Your Birthday",
-    content:
-      "Happy birthday, my love! 🎂 I'm so glad the universe made you and brought you into my life. Let’s celebrate your existence. You are a gift. 🎁",
+    content: (
+      <>
+        Happy birthday, my love! 🎂 I'm so glad the universe made you and
+        brought you into my life. Let’s celebrate your existence. You are a
+        gift. 🎁
+        <br></br>
+        <br></br>
+        #SalamatkayTita&Tito 😆
+      </>
+    ),
   },
   {
     id: 15,
     title: "Open When You’re Sick",
-    content:
-      "I wish I could bring you soup and kiss your forehead. Please rest and hydrate, and imagine me snuggling you under the blanket. 🧣🍵",
+    content: (
+      <>
+        I wish I could bring you soup and kiss your forehead. Please rest and
+        hydrate, and imagine me snuggling you under the blanket. 🧣🍵
+        <br></br>
+        <br></br>
+        PS: Wag mo na alalahanin yung soup na ginawa ko sayo non baby, I've
+        changed (sana) 😆
+      </>
+    ),
   },
   {
     id: 16,
@@ -199,7 +250,7 @@ const letters = [
         <br></br>
         <br></br>
         PS: Pero kung gusto mo na talaga gumive up baby, wag. Wala ka na pang
-        checkout niyan.
+        mine niyan.
       </>
     ),
   },
